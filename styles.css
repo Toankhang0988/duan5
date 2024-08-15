@@ -16,7 +16,7 @@ body {
   text-align: center;
   padding: 5px;
   font-size: 1em;
-  width: 100vw;
+  width: 100%;
   height: auto;
   border-bottom: 1px solid white;
 }
@@ -45,22 +45,30 @@ body {
 }
 
 .noidung {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
 }
 
+/* Indix */
 .anhindex {
-  width: 30vw;
-  float: left;
+  width: 50%;
 }
 
 .hinhanh {
-  width: 100%;
+  width: 100vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+.lienketa {
+  text-align: center;
+  width: 30vw;
+  height: 50vh;
+}
+/* Indix */
+
+/* Button */
 .button {
   width: 20%;
   text-align: center;
@@ -69,13 +77,23 @@ body {
 .nut {
   width: 100%;
   height: 5vh;
+  font-size: 1rem;
 }
+/* Button */
 
 .nami-robin-hancock {
-  width: 80%;
+  width: 80vw;
+  height: 50vh;
   text-align: center;
 }
 
 .hinhanh-nami-robin-hancock {
-  width: 70%;
+  height: 100%;
+}
+
+@media (max-width: 400px) {
+  .hinhanh-nami-robin-hancock {
+    width: 80%;
+    height: auto;
+  }
 }
