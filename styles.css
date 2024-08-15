@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .mucluc-noidung {
     width: 100%;
     height: auto;
@@ -63,7 +63,7 @@ body {
 }
 
 .hinhanh-nami-robin-hancock {
-  height: 70vh;
+  height: 50vh;
 }
 
 .anhindex {
